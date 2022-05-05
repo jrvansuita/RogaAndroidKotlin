@@ -63,7 +63,7 @@ class CommentsFragment : DialogFragment() {
     ): View? {
         val view = inflater.inflate(R.layout.comments_fragment, container, false)
         manager = LinearLayoutManager(activity)
-        
+
         val postId = requireArguments().getInt(POST_ID)
         loadComments(postId)
 
