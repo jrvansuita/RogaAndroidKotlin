@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RogaAndroidKotlin</string>
+    <string name="recent_posts" >Postagens Recentes</string>
+    <string name="comments_about_post">O que a galera comentou sobre "%s"</string>
+</resources>
